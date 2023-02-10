@@ -64,6 +64,7 @@
       ref="com.axelor.apps.base.db.EventsPlanning" title="Imposed holidays planning"
       massUpdate="true"/>
     <string name="socialSecurityNumber" title="Social security number" encrypted="true"/>
+    <string name="idSerialNumber" title="ID Serial Number"/>
     <one-to-many name="employeeAdvanceList" ref="com.axelor.apps.hr.db.EmployeeAdvance"
       title="Employee advances" readonly="true" mappedBy="employee"/>
     <integer name="lunchVoucherFormatSelect" title="Lunch Voucher Format"

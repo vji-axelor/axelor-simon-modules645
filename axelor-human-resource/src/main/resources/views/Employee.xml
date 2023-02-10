@@ -110,7 +110,8 @@
       <field name="citizenship" colSpan="4"/>
       <field name="maritalName" colSpan="4"/>
       <field name="maidenName" colSpan="4" hideIf="sexSelect!='F'"/>
-      <field name="socialSecurityNumber" colSpan="4" max="15" min="12"/>
+      <field name="socialSecurityNumber" colSpan="4" title="ID Number"/>
+      <field name="idSerialNumber" colSpan="4" />
     </panel>
 
     <panel name="emergencyContactSBSPanel" title="Contact in case of emergency"
@@ -312,7 +313,8 @@
           <field name="citizenship" colSpan="4"/>
           <field name="maritalName" colSpan="4"/>
           <field name="maidenName" colSpan="4" hideIf="sexSelect!='F'"/>
-          <field name="socialSecurityNumber" colSpan="4" max="15" min="12"/>
+          <field name="socialSecurityNumber" colSpan="4" max="15" min="12" title="ID Number"/>
+          <field name="idSerialNumber" colSpan="4" />
         </panel>
 
         <panel name="emergencyContactPanel" title="Contact in case of emergency" colSpan="12">
